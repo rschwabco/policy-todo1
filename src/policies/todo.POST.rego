@@ -7,7 +7,7 @@ import input.user
 default allowed = false
 
 allowed {
-	allowedRoles := {"editor", "admin", "evil_genius"}
+	allowedRoles := {"editor", "admin", "evil_genius", "mom"}
 	some x in allowedRoles
 	user.attributes.roles[_] == x
 }
